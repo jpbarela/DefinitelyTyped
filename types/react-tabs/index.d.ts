@@ -27,6 +27,7 @@ export interface TabProps {
     disabled?: boolean;
     disabledClassName?: string;
     selectedClassName?: string;
+    selected?: boolean;
 }
 
 export interface TabPanelProps {
